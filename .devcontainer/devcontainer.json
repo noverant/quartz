@@ -1,0 +1,12 @@
+{
+  "name": "my-project-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "features": {
+      "ghcr.io/devcontainers-contrib/features/gradle-sdkman:2": {
+        "jdkVersion": "17",
+        "jdkDistro": "amzn"
+      }
+    }
+  }
+}
